@@ -1,0 +1,122 @@
+    * {
+        margin: 0px;
+        height: 0px;
+    }
+    
+    nav {
+        background-color: #403d39;
+        /* padding: 10px; */
+        height: 40px;
+        width: 100%;
+        /* margin-top: 40px; */
+        overflow: hidden;
+    }
+    
+    nav ul {
+        margin: auto;
+        align-items: center;
+    }
+    
+    nav ul li {
+        padding: 10px;
+        /* text-align: center; */
+        width: 50%;
+        display: inline-block;
+    }
+    
+    nav a {
+        font-family: 'Courier New', Courier, monospace;
+        color: #fffcf2;
+        text-decoration: none;
+        transition: all 500ms;
+    }
+    
+    #container .btnFont {
+        border: 1px solid #403d39;
+        border-radius: 8px;
+        color: white;
+        background-color: #403d39;
+        margin-top: 10px;
+        height: 30px;
+        cursor: pointer;
+        width: 50px;
+    }
+    
+    #container .btnFont:hover {
+        background-color: white;
+        color: #403d39;
+        border: 1px solid #403d39;
+    }
+    
+    #form {
+        flex-direction: column;
+        width: 200px;
+        margin-right: 0%;
+        padding-left: 10px;
+        padding-top: 10px;
+        justify-content: space-between;
+    }
+    
+    #form input {
+        margin-top: 5px;
+        width: 200px;
+        height: 15px;
+        padding: 5px;
+    }
+    
+    #form label {
+        margin-top: 10px;
+    }
+    
+    #form .btnFont {
+        border: none;
+        color: white;
+        margin-top: 10px;
+        height: 30px;
+        width: 80px;
+    }
+    
+    nav li:hover a {
+        letter-spacing: 10px;
+    }
+    
+    #container #refresh {
+        margin-left: 0%;
+        height: 30px;
+    }
+    
+    #container {
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 1%;
+    }
+    
+    #table {
+        display: flex;
+        text-align: center;
+        width: 400px;
+        /* float: right; */
+    }
+    
+    #table .btnEdit,
+    #table .btnDelete {
+        border: 8px solid #403d39;
+        border-radius: 5px;
+        color: white;
+        background-color: #403d39;
+        margin-top: 10px;
+        padding: 0%;
+        text-align: center;
+        height: 30px;
+        cursor: pointer;
+        width: 30px;
+    }
+    
+    #table .btnEdit:hover,
+    #table .btnDelete:hover {
+        background-color: white;
+        color: #403d39;
+        border: 1px solid #403d39;
+    }
